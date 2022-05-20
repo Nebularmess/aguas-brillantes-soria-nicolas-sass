@@ -1,6 +1,6 @@
 .section__derecha {
     min-height: 100%;
-    background-color:#c2c500;
+    background-color:$amarillo-fondo;
     min-height: 500px;
     display: flex;
     flex-direction: column;
@@ -9,15 +9,15 @@
 }
 .enlaces {
     text-decoration: none;
-    color:#0F1C0D;
+    color:$verde-letra;
     cursor: default;
 }
 .enlaces:hover {
-    color: #0F1C0D;
+    color: $verde-letra;
 }
 .section__titulo-derecha {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #0F1C0D;
+    color: $verde-letra;
     opacity: 100%;
     font-size: 20px;
     text-align: center;

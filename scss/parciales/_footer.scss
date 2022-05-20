@@ -28,7 +28,7 @@
             font-family: 'Abril Fatface', cursive;
             font-style: italic;
             font-size: 26px;
-            color: #0F1C0D;
+            color: $verde-letra;
         }
         &__marca {
             height: 60px;
@@ -64,7 +64,7 @@
         &__enlace {
             text-decoration: none;
             font-family: 'Abril Fatface', cursive;
-            color: #0F1C0D;
+            color: $verde-letra;
             height: 70px;
         }
         &__iconos {
