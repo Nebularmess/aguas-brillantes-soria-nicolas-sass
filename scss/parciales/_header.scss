@@ -1,0 +1,58 @@
+.header {
+    background-color: #0F6300 ;
+    height: 70px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+    &-unite {
+        background-color: #0F6300 ;
+        height: 70px;
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        --bs-gutter-x: 0rem;
+    }
+    &__proyecto {
+        font-family: 'Abril Fatface', cursive;
+        font-style: italic;
+        font-size: 26px;
+        color: #0F1C0D;
+    }
+    &__marca {
+        height: 60px;
+        width: 60px;
+        text-decoration: none;
+        justify-self: flex-start;
+        margin-right: 7%;
+        margin-left: 0px;
+    }
+    &__logo {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+    &__derecha {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__lista {
+        padding: 0px;
+    }
+    &__row {
+        height: 60px;
+    }
+    &__row-unite {
+        height: 60px;
+    }
+    &__open {
+        display: none
+    }
+    &__container {
+        height: 100%;
+    }
+}

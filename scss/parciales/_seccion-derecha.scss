@@ -1,0 +1,41 @@
+.section__derecha {
+    min-height: 100%;
+    background-color:#c2c500;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.enlaces {
+    text-decoration: none;
+    color:#0F1C0D;
+    cursor: default;
+}
+.enlaces:hover {
+    color: #0F1C0D;
+}
+.section__titulo-derecha {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #0F1C0D;
+    opacity: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px;
+    background-image: linear-gradient(to left, #0d6300d5,#0d6300d5);
+    border: 1px solid #0d6300
+}
+.carousel {
+    border: solid 2px #0F6300;
+}
+.carouselImagenes {
+    height: 400px;
+    object-fit: cover;
+}
+.video {
+    width: 90%;
+    height: 285px;
+    border: solid 1px #0F6300;
+    margin-bottom: 10px;
+}

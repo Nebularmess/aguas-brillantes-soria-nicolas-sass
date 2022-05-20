@@ -1,0 +1,138 @@
+@media screen and (max-width: 1023px) {
+  .header__proyecto {
+    font-family: 'Abril Fatface', cursive;
+    font-style: italic;
+    font-size: 20px;
+    color: #0F1C0D;
+  }
+  .nav__lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 12px;
+    width: 100%;
+    height: 70px;
+    justify-self: flex-start;
+    margin: 0px;
+  }
+  .section__titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0F1C0D;
+    opacity: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 20px 15px;
+    margin-top: 10px;
+    background-image: linear-gradient(to left, #ada73e4a, #ada73e4a);
+    border: 1px solid #ada73e;
+  }
+  .section__parrafo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin: 15px 20px 15px 20px;
+    text-align: justify;
+    color: #0F1C0D;
+    padding: 10px;
+    background-image: linear-gradient(to left, #ada73e4a, #ada73e4a);
+    border: 1px solid #ada73e;
+  }
+  .section_iconos {
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    align-self: center;
+    opacity: 100%;
+  }
+  .section__titulo-derecha {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0F1C0D;
+    opacity: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px;
+    background-image: linear-gradient(to left, #0d6300d5, #0d6300d5);
+    border: 1px solid #0d6300;
+  }
+  .carouselImagenes {
+    height: 200px;
+    object-fit: cover;
+  }
+  .video {
+    width: 90%;
+    height: 180px;
+    border: solid 1px #0F6300;
+    margin-bottom: 10px;
+  }
+  .footer__proyecto {
+    font-family: 'Abril Fatface', cursive;
+    font-style: italic;
+    font-size: 20px;
+    color: #0F1C0D;
+  }
+  .label {
+    font-size: 16px;
+  }
+  .recuadro__imagen {
+    height: 170px;
+    width: 100%;
+    object-fit: cover;
+    border: 2px green solid;
+    transition: all 2s;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__proyecto {
+    font-family: 'Abril Fatface', cursive;
+    font-style: italic;
+    font-size: 18px;
+    color: #0F1C0D;
+  }
+  .nav {
+    height: 30px;
+  }
+  .nav__item {
+    height: 30px;
+  }
+  .nav__enlace {
+    height: 30px;
+  }
+  .nav__lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 12px;
+    width: 100%;
+    height: 30px;
+    justify-self: flex-start;
+    margin: 0px;
+  }
+  .article {
+    top: 90px;
+  }
+  .carouselImagenes {
+    height: 200px;
+  }
+  .footer__proyecto {
+    font-size: 20px;
+  }
+  .footer__iconos {
+    font-size: 20px;
+  }
+  .footer_derecha {
+    height: 30px;
+  }
+  .footer__lista {
+    height: 30px;
+  }
+}
+/*# sourceMappingURL=media-queries.css.map */
